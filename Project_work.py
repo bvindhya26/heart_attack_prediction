@@ -9,7 +9,8 @@ Created on Sun Apr  7 10:09:19 2024
 import pandas as pd
 import matplotlib.pyplot as plt
 
-heart = pd.read_csv("C:/Users/HP/OneDrive/Documents/Kaggle_Dataset/Heart_Disease_Prediction_Final.csv")
+#heart = pd.read_csv("C:/Users/HP/OneDrive/Documents/Kaggle_Dataset/Heart_Disease_Prediction_Final.csv")
+heart = pd.read_csv("https://github.com/bvindhya26/heart_attack_prediction/blob/master/Heart_Disease_Prediction_Final.csv")
 heart.shape
 print("File size is :", heart.shape)
 heart.head()
